@@ -8,8 +8,8 @@ use std::io::Write;
 
 use rs_cbor2img::CBOR_EMPTY_MAP;
 
-use rs_cbor2img::img::bin2img;
 use rs_cbor2img::img::ImageSize;
+use rs_cbor2img::img::bin2img;
 
 use rs_cbor2img::png::reader2png2data2writer;
 use rs_cbor2img::png::writer2nopad_dummy_writer_new;
